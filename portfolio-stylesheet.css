@@ -1,0 +1,684 @@
+/* Cassie Logan Strike Cosmetics and Beauty Line */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    height: 100%;
+    width:100%;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color:black;
+}
+/* main content*/
+
+
+#container {
+    width:90%;
+    display: block;
+    margin: 0 5%;
+    background: white;
+
+}
+
+
+/* nav*/
+
+header {
+		height: 70px ;
+        width: 100%;
+        margin-right: 5%;
+		padding: 2px;
+        text-align: right;
+        display: block;
+        background-color: white;
+        position: fixed;
+        font-weight: 300;
+        z-index: 100;
+
+        
+}
+/* properties for nav and links   */
+.nav {
+    display: block;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    margin-top: 20%;
+    padding: 10px; 
+}
+
+#headerLogo {
+    float: left; 
+    height: 100%;
+    margin: -20px;
+    
+}
+
+ul {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 8%;
+    float: none;
+    
+}
+
+.tools {
+    display: block;
+    
+}
+
+li {
+    float: left;
+    width: 100px;
+    font-size: .9em;
+    
+}
+
+.logo {
+    padding: 30px;
+    height: 70%;
+    
+}
+
+a {
+       
+    text-decoration: none; 
+    color:black;
+
+    
+}
+
+.nav:hover {
+    color:#8FA67A;   
+    text-decoration: overline;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.4em;
+    margin-top: 5%;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    
+    
+}
+/* headers */
+h2 {
+    font-weight: 200;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    text-transform: none;
+    font-family: 'Lato';
+    color:#8FA67A;   
+
+    
+    
+}
+
+h3 {
+    color: black;
+    font-size: .9em;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.4em;
+    font-family: 'Lora', serif;
+
+    
+}
+
+em {
+    font-weight: 700;
+    font-style: italic;
+    color:#8FA67A;   
+
+}
+
+p {
+    font-size: .9em;
+   
+}
+
+/*work page*/
+
+.grid {
+    margin: 0 auto;
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+    width:100%;
+    
+}
+
+.grid-image {
+    width: 28%;
+    margin:10px;
+    display: inline-block;
+    position:relative;
+    
+}
+
+.grid-image img {
+    width: 100%;     
+}
+.grid figure img {
+	opacity: 1;
+}
+
+.grid figure {
+	margin: inherit;
+
+
+}
+/*the different hover states for work page */
+
+.grid-image:hover p{
+    display: block;
+    color: white;
+    text-transform: none;
+    font-weight: 100;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    padding: inherit;
+    padding-top: 25%;
+}
+
+.grid-image:hover h3{
+    display: block;
+}
+
+footer {
+    width:100%;
+    height:100px;
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    text-transform: uppercase;
+    overflow:auto;
+}
+
+/*work details */
+
+.description-container {
+    float: left;
+    padding-top: 10%;
+    width: 40%;
+    line-height: 1.6em;
+    clear:both;
+    margin:0 auto;
+    position: fixed;
+
+    
+}
+
+.project-images-container {
+    float: right;
+    margin-top:50px;
+    width:50%;
+    
+}
+
+.videogame-images {
+    width: 450px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.description {
+    padding-top: 10px;
+
+    
+}
+
+.next-page {
+    text-align: center;
+    display: block;
+    padding: 40px;
+}
+
+.grid-image p{
+    color: black;
+    font-size: .9em;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: none;
+    font-family: 'Lora', serif;
+
+    
+}
+
+.grid-image h3{
+    color: black;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: none;
+    font-family: 'Lora', serif;
+
+    
+}
+
+/*footer links*/
+
+.fa {
+    padding:10px;
+}
+
+.fa:hover {
+    color:#8FA67A;   
+}
+.fa-arrow {
+    margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto; 
+    text-align: center;
+}
+.link{
+    border: solid ;
+    border-width: 2px;
+    border-color: grey;
+    padding:10px;
+    text-align: center;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: black;   
+
+}
+
+a:visited {
+    color: black;   
+}
+
+
+.just_text {
+    height: 500px;
+    width: 800px;
+    text-align: center;
+    
+}
+
+/*code the the sliding captions */
+
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto;
+}
+figcaption {
+  position: absolute;
+  background: black;
+  background: rgba(0,0,0,0.75);
+  color: white;
+/*  padding: 10px 20px;*/
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
+
+.cap-left:before {  bottom: 10px; left: 10px; }
+.cap-left figcaption { bottom: 0; left: -30%; }
+.cap-left:hover figcaption { left: 0; }
+
+.cap-right:before { bottom: 10px; right: 10px; }
+.cap-right figcaption { bottom: 0; right: -30%; }
+.cap-right:hover figcaption { right: 0; }
+
+.cap-top:before { top: 10px; left: 10px; }
+.cap-top figcaption { left: 0; top: -30%; }
+.cap-top:hover figcaption { top: 0; }
+
+.cap-bot:before { bottom: 10px; left: 10px; }
+.cap-bot figcaption { left: 0; bottom: -30%;}
+.cap-bot:hover figcaption { bottom: 0; }
+
+/*resume section*/
+
+.resume {
+    margin-left: 15%;
+    padding-top: 10%;
+}
+
+.h1-resume{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #98B082;
+    margin: 0 auto;
+
+}
+
+.h2-resume{
+    font-size: .9em;
+    text-transform: none;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.5em;
+    
+}
+
+.ul-resume{
+    font-size: .9em;
+    line-height: 1.4em;
+    width: 70%;
+}
+
+.li-resume{
+    text-align:left;
+    width: auto;
+    float: none;
+}
+
+.resume-section {
+    width: 33%;
+    display: inline-block;
+    text-align: left;
+    padding-right: 0;
+    font-size: .9em;
+    line-height: 1.4em;
+}
+
+
+/*about me*/
+
+
+#aboutme {
+    
+    background-image: url(images/main.JPG);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#main-logo {
+    position: absolute;
+    height:35%;
+    margin:18%;
+    
+    
+}
+
+#aboutme-bio {
+    margin:5% auto;
+    width: 80%;
+    ;
+    
+    
+    
+}
+
+#aboutme-bio h2 {
+    text-align: center;
+    color: #98B082;
+
+    
+}
+
+#bio-image {
+    width: 40%;
+    margin:3%;
+    vertical-align: top;
+    
+}
+
+#bio-description {
+    width:40%;
+    padding: 4%;
+    font-size: 1.1em;
+    line-height: 2em;
+    display: inline-block;
+    
+   
+    
+}
+
+.hobby-images {
+    width: 20%;  
+    text-align: center;
+    margin: 1% 6.5%;
+    
+    
+}
+
+.hobby-bio {
+     width: 20%;  
+    text-align: center;
+    margin: 2% 6.5%;
+    display: inline-block;
+    
+}
+
+#aboutme-jobs {
+    padding:4%;
+    background-image: url(images/plates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+
+#aboutme-jobs h2{
+    text-align: center;
+    color: white;
+
+}
+
+#aboutme-jobs h5{
+    text-align: center;
+    color: white;
+    font-family: 'Merienda';
+    padding: 10%;
+    font-size: 4em;
+    color: white;
+    line-height: 150%;
+    
+}
+
+
+#aboutme-jobs em{
+    color: black;
+
+}
+#aboutme-jobs h3{
+    text-align: center;
+    color: white;
+
+}
+
+#aboutme-hobbies{
+    margin:8% auto;
+}
+#aboutme-hobbies h2{
+    text-align: center;
+        color: #98B082;
+
+}
+
+/*code for the contact form*/
+
+.content-contactform {
+	width: 96%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea,
+#contact-form button[type="submit"] {
+	font:400 12px/12px;
+
+}
+#contact-form {
+    margin:0 auto;
+    width: 35%;
+	font: 400 12px/1.625;
+    border-radius:4px;
+	background:none;
+	padding:10%;
+    font-family: 'Lato', sans-serif;
+}
+
+#contact-form h2 {
+	text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+#contact-form h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size: .7em;
+	line-height:1.1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+#contact-form label span {
+	cursor:pointer;
+	color:#98B082;
+	display:block;
+	margin:5px 0;
+	font-weight:400;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact-form input[type="text"]:hover,
+#contact-form input[type="email"]:hover,
+#contact-form input[type="tel"]:hover,
+#contact-form input[type="url"]:hover,
+#contact-form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#contact-form textarea {
+	height:100px;
+	max-width:100%;
+}
+#contact-form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#98B082;
+/*
+	background-image:linear-gradient(bottom, #1c2833 0%, #2c3e50 52%);
+	background-image:-moz-linear-gradient(bottom, #1c2833 0%, #2c3e50 52%);
+	background-image:-webkit-linear-gradient(bottom, #1c2833 0%, #2c3e50 52%);
+*/
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact-form button[type="submit"]:hover {
+	background-image:linear-gradient(bottom, #4C4C4C 0%, #888 52%);
+	background-image:-moz-linear-gradient(bottom, #98B082 0%, #888 52%);
+	background-image:-webkit-linear-gradient(bottom, #4C4C4C 0%, #888 52%);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#contact-form button[type="submit"]:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
+
