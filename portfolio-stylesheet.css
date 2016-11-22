@@ -152,6 +152,7 @@ h1 {
     
     
 }
+
 /* headers */
 h2 {
     font-weight: 200;
@@ -178,7 +179,7 @@ h3 {
 
 em {
     font-weight: 700;
-    font-style: italic;
+    font-size: 1.5em;
     color:#8FA67A;   
 
 }
@@ -340,6 +341,17 @@ footer {
     text-align: center;
     margin: 0 auto;
 }
+.link-home{
+    border: solid ;
+    background-color: white;
+    opacity: 90%;
+    border-width: 4px;
+    border-color: black;
+    padding:2%;
+    text-align: center;
+    margin: 0 auto;
+    float: right;
+}
 a {
     text-decoration: none;
     color: black;   
@@ -449,17 +461,16 @@ figure:hover figcaption {
 #aboutme {
     
     background-image: url(images/main.JPG);
-    height: 850px;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 15%;
     
     
 }
 
 #main-logo {
-    position: absolute;
-    height:35%;
-    margin:18%;
+    width:50%;
+    margin:5%;
     
     
 }
@@ -511,15 +522,40 @@ figure:hover figcaption {
     text-align: center;
     margin: 2% 6.5%;
     display: inline-block;
+    line-height: 2em;
+
     
 }
 
-#aboutme-jobs {
-    padding:4%;
-    background-image: url(images/plates.jpg);
+.hobby-bio:hover {
+    color:#8FA67A;   
+    font-style: italic;
+}
+
+#aboutme-design {
+    padding:15%;
+    background-image: url(images/instagram_home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 100%;
+
+}
+
+#aboutme-photography {
+    padding:15%;
+    background-image: url(images/instagram_home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+#aboutme-video {
+    padding:15%;
+    background-image: url(images/italy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 
 }
 
