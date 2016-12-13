@@ -1,0 +1,330 @@
+/* Cassie Logan Strike Cosmetics and Beauty Line */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* this header will be hidden on splash page, but will be fixed for every page   */
+header {
+        background-color: rgba(225, 225, 225, .55) ;
+		height: 130px ;
+        width: 100%;
+		padding: 2px;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        position: fixed;
+        z-index: 100;
+        
+}
+/* properties for nav and links   */
+.nav {
+    padding:65px 0px;   
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+/*  secondary logo in the nav   */
+
+
+#logo {
+        height: 120px;
+}
+
+/*  pseudo classes   */
+a:visted {
+        color: white;
+        opacity: 0.50;
+     }
+    
+
+a:hover {
+        color: #59160A;
+        opacity: 1.0;
+        font-style: italic;
+        
+    }
+
+/*  lists   */
+ul {
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+li {
+    float: left;
+    width: 130px;
+    
+}
+/* arrow at the bottom of the splash page  */
+
+#arrow {
+    margin: 0 auto;  
+    display: block;
+    position: relative;
+    bottom: 100px;
+}
+/*  main background of splash page   */
+
+body{
+    height: 500px;
+    background: url(images/splash.jpg) no-repeat center fixed;
+    background-size: cover; 
+    o-background-size: cover;
+    moz-background-size: cover;
+    webkit-background-size: cover;
+}
+
+/*  div made so I could place my main logo on the splash page */
+.empty {
+    height: 800px;
+    
+}
+
+/*  main logo  */
+
+#main-logo {
+    margin-left: 30%;
+    margin-top: 18%;
+    width: 40%;    
+    
+}
+
+/*  any class that needed to be centered   */
+
+.center {
+    margin: 0 auto;
+    display: block; 
+    
+}
+
+/*  style for about page  */
+
+.about{
+    height: 180%;
+    width: 100%;
+    background-color: #C5CEDB;
+    background: url(images/gplaypattern.png);
+    
+}
+
+/* the fixed div with the quote logo   */
+.quote {
+    height: 550px;
+    background: url(images/quote.png) repeat center fixed;
+    background-size: cover; 
+    o-background-size: cover;
+    moz-background-size: cover;
+    webkit-background-size: cover;
+
+
+    
+}
+/*  all headers  */
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Quicksand', sans-serif;
+}
+.h1-color2 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.h2-white {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+
+}
+
+/*  the picture on the about page   */
+
+.portrait {
+   background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    margin: 2% 20%;
+}
+
+/*  the text on the about page   */
+
+.bio {
+    margin: 0px 32%;
+    font-size: 1.1em;
+    line-height: 150%;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+
+    
+    
+}
+/*  the div of the ficed dark portrait image as background   */
+
+.space {
+    height: 600px;
+    background: url(images/dark-portrait.jpg) repeat center fixed;
+    background-size: cover; 
+    o-background-size: cover;
+    moz-background-size: cover;
+    webkit-background-size: cover;
+}
+
+/*  the main div of the products page  */
+
+.products-background {
+    height: 1650px;
+    width: 100%;
+    background-color: #D9C5BF;
+}
+
+/*  main container  */
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 300px;
+}
+/*  container for lipstick section   */
+.container-lipsticks {
+    margin: 0 auto;
+    width: 1000px;
+    height:600px;
+}
+/*  container for eyeshadows section  */
+.container-eyeshadows {
+    margin: 0 auto;
+    width: 1000px;
+    height: 700px;
+}
+
+/*  all product divs  */
+
+
+.products {
+    float: left;
+    margin: 75px 100px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+/*  all product images  */
+
+.circle-product {
+    border-radius: 50%;   
+}
+
+/*  header space and text  */
+
+
+.header-space {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+/*  background for tutorial div  */
+
+
+.tutorials {
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    
+}
+
+/*  image link shape  */
+
+
+.circle {
+    display: inline-block; 
+    border-radius: 50%;
+    width:225px;
+    margin: 10px;
+}
+
+/*  footer  */
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #C5CEDB;
+
+    
+}
+
+/*  footer text  */
+
+
+.disclaimer {
+    color:black;
+    padding: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
